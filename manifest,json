@@ -1,9 +1,27 @@
 {
   "version": "1.0.0",
-  "modules": {
-    "auto_farm": {
-      "version": "1.0.0"
+  "updateInterval": 3600000,
+  "modules": [
+    {
+      "id": "auto_pve",
+      "name": "Auto PvE",
+      "icon": "swords",
+      "version": "1.0.0",
+      "file": "modules/auto_pve.js"
+    },
+    {
+      "id": "auto_potion",
+      "name": "Auto Potion",
+      "icon": "droplets",
+      "version": "1.0.0",
+      "file": "modules/auto_potion.js"
+    },
+    {
+      "id": "boss_timer",
+      "name": "Boss Timer",
+      "icon": "hourglass",
+      "version": "1.0.0",
+      "file": "modules/boss_timer.js"
     }
-  }
-
+  ]
 }
