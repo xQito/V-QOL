@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         V-QOL PRO
+// @name         V-QOL
 // @match        https://demonicscans.org/*
 // @grant        GM_setValue
 // @grant        GM_getValue
